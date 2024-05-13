@@ -502,7 +502,11 @@ Definition
   border: 1px solid lightgray;
   border-collapse: collapse;
   width: auto;
-  margin-left: 0; }
+  display: block;
+  max-width: fit-content;
+  margin: 0 auto;
+  overflow-x: auto;
+  white-space: nowrap; }
 
 .gitter-tabelle td {
   border: 1px solid lightgray;
