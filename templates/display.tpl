@@ -9,6 +9,7 @@
  *}
 <script src="{$jQueryUrl}"></script>
 <script src="{$pluginLensPath}/lens.js"></script>
+<script src="{$pluginLensPath}/panel-resize.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">{literal}
 
