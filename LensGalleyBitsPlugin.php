@@ -1,293 +1,352 @@
 <?php
 
 /**
- * @file plugins/generic/lensGalleyBits/LensGalleyBitsPlugin.inc.php
+ * @file plugins/generic/lensGalleyBits/LensGalleyBitsPlugin.php
  *
- * Copyright (c) 2014-2020 Simon Fraser University
- * Copyright (c) 2003-2020 John Willinsky
+ * Copyright (c) 2014-2026 Simon Fraser University
+ * Copyright (c) 2003-2026 John Willinsky
  * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
  * @class LensGalleyBitsPlugin
- * @ingroup plugins_generic_lensGalley
+ *
+ * @ingroup plugins_generic_lensGalleyBits
  *
  * @brief Class for lensGalleyBits plugin
  */
 
-import('lib.pkp.classes.plugins.GenericPlugin');
+namespace APP\plugins\generic\lensGalleyBits;
 
-class LensGalleyBitsPlugin extends GenericPlugin {
-	/**
-	 * @copydoc LazyLoadPlugin::register()
-	 */
-	function register($category, $path, $mainContextId = null) {
-		if (parent::register($category, $path, $mainContextId)) {
-			if ($this->getEnabled()) {
-				HookRegistry::register('ArticleHandler::view::galley', array($this, 'articleCallback'));
-				HookRegistry::register('IssueHandler::view::galley', array($this, 'issueCallback'));
-				HookRegistry::register('ArticleHandler::download', array($this, 'articleDownloadCallback'), HOOK_SEQUENCE_LATE);
-			}
-			return true;
-		}
-		return false;
-	}
+use APP\core\Application;
+use APP\core\Request;
+use APP\core\Services;
+use APP\facades\Repo;
+use APP\file\PublicFileManager;
+use APP\observers\events\UsageEvent;
+use APP\template\TemplateManager;
+use PKP\config\Config;
+use PKP\galley\Galley;
+use PKP\plugins\GenericPlugin;
+use PKP\plugins\Hook;
+use PKP\submissionFile\SubmissionFile;
 
-	/**
-	 * Install default settings on journal creation.
-	 * @return string
-	 */
-	function getContextSpecificPluginSettingsFile() {
-		return $this->getPluginPath() . '/settings.xml';
-	}
+class LensGalleyBitsPlugin extends GenericPlugin
+{
+    /**
+     * @copydoc LazyLoadPlugin::register()
+     */
+    public function register($category, $path, $mainContextId = null)
+    {
+        if (parent::register($category, $path, $mainContextId)) {
+            if ($this->getEnabled()) {
+                Hook::add('ArticleHandler::view::galley', $this->articleCallback(...));
+                Hook::add('IssueHandler::view::galley', $this->issueCallback(...));
+                Hook::add('ArticleHandler::download', $this->articleDownloadCallback(...), Hook::SEQUENCE_LATE);
+            }
+            return true;
+        }
+        return false;
+    }
 
-	/**
-	 * Get the display name of this plugin.
-	 * @return String
-	 */
-	function getDisplayName() {
-		return __('plugins.generic.lensGalleyBits.displayName');
-	}
+    /**
+     * Install default settings on journal creation.
+     */
+    public function getContextSpecificPluginSettingsFile(): string
+    {
+        return $this->getPluginPath() . '/settings.xml';
+    }
 
-	/**
-	 * Get a description of the plugin.
-	 */
-	function getDescription() {
-		return __('plugins.generic.lensGalleyBits.description');
-	}
+    /**
+     * Get the display name of this plugin.
+     */
+    public function getDisplayName(): string
+    {
+        return __('plugins.generic.lensGalleyBits.displayName');
+    }
 
-	/**
-	 * Callback that renders the article galley.
-	 * @param $hookName string
-	 * @param $args array
-	 * @return boolean
-	 */
-	function articleCallback($hookName, $args) {
-		$request =& $args[0];
-		$issue =& $args[1];
-		$galley =& $args[2];
-		$submission =& $args[3];
+    /**
+     * Get a description of the plugin.
+     */
+    public function getDescription(): string
+    {
+        return __('plugins.generic.lensGalleyBits.description');
+    }
 
-		$templateMgr = TemplateManager::getManager($request);
-		if ($galley && in_array($galley->getFileType(), array('application/xml', 'text/xml'))) {
-			$galleyPublication = null;
-			foreach ($submission->getData('publications') as $publication) {
-				if ($publication->getId() === $galley->getData('publicationId')) {
-					$galleyPublication = $publication;
-					break;
-				}
-			}
-			$templateMgr->assign(array(
-				'pluginLensPath' => $this->getLensPath($request),
-				'displayTemplatePath' => $this->getTemplateResource('display.tpl'),
-				'pluginUrl' => $request->getBaseUrl() . '/' . $this->getPluginPath(),
-				'galleyFile' => $galley->getFile(),
-				'issue' => $issue,
-				'article' => $submission,
-				'bestId' => $submission->getBestId(),
-				'isLatestPublication' => $submission->getData('currentPublicationId') === $galley->getData('publicationId'),
-				'galleyPublication' => $galleyPublication,
-				'galley' => $galley,
-				'jQueryUrl' => $this->_getJQueryUrl($request),
-			));
-			$templateMgr->display($this->getTemplateResource('articleGalley.tpl'));
-			return true;
-		}
+    /**
+     * Callback that renders the article galley.
+     */
+    public function articleCallback(string $hookName, array $args): bool
+    {
+        $request = &$args[0];
+        $issue = &$args[1];
+        $galley = &$args[2];
+        $submission = &$args[3];
 
-		return false;
-	}
+        $templateMgr = TemplateManager::getManager($request);
+        if ($galley && in_array($galley->getFileType(), ['application/xml', 'text/xml'])) {
+            $galleyPublication = null;
+            foreach ($submission->getData('publications') as $publication) {
+                if ($publication->getId() === $galley->getData('publicationId')) {
+                    $galleyPublication = $publication;
+                    break;
+                }
+            }
+            $templateMgr->assign([
+                'pluginLensPath' => $this->getLensPath($request),
+                'displayTemplatePath' => $this->getTemplateResource('display.tpl'),
+                'pluginUrl' => $request->getBaseUrl() . '/' . $this->getPluginPath(),
+                'galleyFile' => $galley->getFile(),
+                'issue' => $issue,
+                'article' => $submission,
+                'bestId' => $galleyPublication->getData('urlPath') ?? $submission->getId(),
+                'isLatestPublication' => $submission->getData('currentPublicationId') === $galley->getData('publicationId'),
+                'galleyPublication' => $galleyPublication,
+                'galley' => $galley,
+                'jQueryUrl' => $this->_getJQueryUrl($request),
+            ]);
+            $templateMgr->display($this->getTemplateResource('articleGalley.tpl'));
+            return true;
+        }
 
-	/**
-	 * Callback that renders the issue galley.
-	 * @param $hookName string
-	 * @param $args array
-	 * @return boolean
-	 */
-	function issueCallback($hookName, $args) {
-		$request =& $args[0];
-		$issue =& $args[1];
-		$galley =& $args[2];
+        return false;
+    }
 
-		$templateMgr = TemplateManager::getManager($request);
-		if ($galley && in_array($galley->getFileType(), array('application/xml', 'text/xml'))) {
-			$templateMgr->assign(array(
-				'pluginLensPath' => $this->getLensPath($request),
-				'displayTemplatePath' => $this->getTemplateResource('display.tpl'),
-				'pluginUrl' => $request->getBaseUrl() . '/' . $this->getPluginPath(),
-				'galleyFile' => $galley->getFile(),
-				'issue' => $issue,
-				'galley' => $galley,
-				'jQueryUrl' => $this->_getJQueryUrl($request),
-			));
-			$templateMgr->addJavaScript(
-				'jquery',
-				$jquery,
-				array(
-					'priority' => STYLE_SEQUENCE_CORE,
-					'contexts' => 'frontend',
-				)
-			);
-			$templateMgr->display($this->getTemplateResource('issueGalley.tpl'));
-			return true;
-		}
+    /**
+     * Callback that renders the issue galley.
+     */
+    public function issueCallback(string $hookName, array $args): bool
+    {
+        $request = &$args[0];
+        $issue = &$args[1];
+        $galley = &$args[2];
 
-		return false;
-	}
+        $templateMgr = TemplateManager::getManager($request);
+        if ($galley && in_array($galley->getFileType(), ['application/xml', 'text/xml'])) {
+            $templateMgr->assign([
+                'pluginLensPath' => $this->getLensPath($request),
+                'displayTemplatePath' => $this->getTemplateResource('display.tpl'),
+                'pluginUrl' => $request->getBaseUrl() . '/' . $this->getPluginPath(),
+                'galleyFile' => $galley->getFile(),
+                'issue' => $issue,
+                'galley' => $galley,
+                'jQueryUrl' => $this->_getJQueryUrl($request),
+            ]);
+            $templateMgr->display($this->getTemplateResource('issueGalley.tpl'));
+            return true;
+        }
 
-	/**
-	 * Get the URL for JQuery JS.
-	 * @param $request PKPRequest
-	 * @return string
-	 */
-	private function _getJQueryUrl($request) {
-		$min = Config::getVar('general', 'enable_minified') ? '.min' : '';
-			return $request->getBaseUrl() . '/lib/pkp/lib/vendor/components/jquery/jquery' . $min . '.js';
-	}
+        return false;
+    }
 
-	/**
-	 * returns the base path for Lens JS included in this plugin.
-	 * @param $request PKPRequest
-	 * @return string
-	 */
-	function getLensPath($request) {
-		return $request->getBaseUrl() . '/' . $this->getPluginPath() . '/libs/lens';
-	}
+    /**
+     * Get the URL for JQuery JS.
+     */
+    public function _getJQueryUrl(Request $request): string
+    {
+        $min = Config::getVar('general', 'enable_minified') ? '.min' : '';
+        return $request->getBaseUrl() . '/js/build/jquery/jquery' . $min . '.js';
+    }
 
-	/**
-	 * Present rewritten XML.
-	 * @param string $hookName
-	 * @param array $args
-	 */
-	function articleDownloadCallback($hookName, $args) {
-		$article =& $args[0];
-		$galley =& $args[1];
-		$fileId =& $args[2];
-		$request = Application::get()->getRequest();
+    /**
+     * returns the base path for Lens JS included in this plugin.
+     */
+    public function getLensPath(Request $request): string
+    {
+        return $request->getBaseUrl() . '/' . $this->getPluginPath() . '/lib/lens';
+    }
 
-		if ($galley && in_array($galley->getFileType(), array('application/xml', 'text/xml')) && $galley->getFileId() == $fileId) {
-			if (!HookRegistry::call('LensGalleyPlugin::articleDownload', array($article,  &$galley, &$fileId))) {
-				$xmlContents = $this->_getXMLContents($request, $galley);
-				header('Content-Type: application/xml');
-				header('Content-Length: ' . strlen($xmlContents));
-				header('Content-Disposition: inline');
-				header('Cache-Control: private');
-				header('Pragma: public');
-				echo $xmlContents;
-				$returner = true;
-				HookRegistry::call('LensGalleyPlugin::articleDownloadFinished', array(&$returner));
-			}
-			return true;
-		}
+    /**
+     * Present rewritten XML.
+     */
+    public function articleDownloadCallback(string $hookName, array $args): bool
+    {
+        $article = &$args[0];
+        $galley = &$args[1];
+        $fileId = &$args[2];
+        $request = Application::get()->getRequest();
 
-		return false;
-	}
+        if (!$galley) {
+            return false;
+        }
 
-	/**
-	 * Return string containing the contents of the XML file.
-	 * This function performs any necessary filtering, like image URL replacement.
-	 * @param $request PKPRequest
-	 * @param $galley ArticleGalley
-	 * @return string
-	 */
-	function _getXMLContents($request, $galley) {
-		$journal = $request->getJournal();
-		$submissionFile = $galley->getFile();
-		$fileService = Services::get('file');
-		$file = $fileService->get($submissionFile->getData('fileId'));
-		$contents = $fileService->fs->read($file->path);
+        $submissionFile = $galley->getFile();
+        if ($galley->getData('submissionFileId') == $fileId && in_array($submissionFile->getData('mimetype'), ['application/xml', 'text/xml']) && $galley->getData('submissionFileId') == $submissionFile->getId()) {
+            if (!Hook::run('LensGalleyPlugin::articleDownload', [[$article, &$galley, &$fileId]])) {
+                $xmlContents = $this->_getXMLContents($request, $galley);
+                header('Content-Type: application/xml');
+                header('Content-Length: ' . strlen($xmlContents));
+                header('Content-Disposition: inline');
+                header('Cache-Control: private');
+                header('Pragma: public');
+                echo $xmlContents;
+                $returner = true;
+                Hook::run('LensGalleyPlugin::articleDownloadFinished', [[&$returner]]);
 
-		// Replace media file references
-		import('lib.pkp.classes.submission.SubmissionFile'); // Constants
-                $embeddableFilesIterator = Services::get('submissionFile')->getMany([
-                        'assocTypes' => [ASSOC_TYPE_SUBMISSION_FILE],
-                        'assocIds' => [$submissionFile->getId()],
-                        'fileStages' => [SUBMISSION_FILE_DEPENDENT],
-                        'includeDependentFiles' => true,
-		]);
-		$embeddableFiles = iterator_to_array($embeddableFilesIterator);
-		$referredArticle = $referredPublication = null;
-		$submissionDao = DAORegistry::getDAO('SubmissionDAO');
-		$publicationService = Services::get('publication');
-		foreach ($embeddableFiles as $embeddableFile) {
-			// Ensure that the $referredArticle object refers to the article we want
-			if (!$referredArticle || !$referredPublication || $referredPublication->getData('submissionId') != $referredArticle->getId() || $referredPublication->getId() != $galley->getData('publicationId')) {
-				$referredPublication = $publicationService->get($galley->getData('publicationId'));
-				$referredArticle = $submissionDao->getById($referredPublication->getData('submissionId'));
-			}
-			$fileUrl = $request->url(null, 'article', 'download', [$referredArticle->getBestArticleId(), $galley->getBestGalleyId(), $embeddableFile->getId()]);
-			$pattern = preg_quote(rawurlencode($embeddableFile->getLocalizedData('name')));
+                $submissionFile = Repo::submissionFile()->get($galley->getData('submissionFileId'));
+                $publication = Repo::publication()->get($galley->getData('publicationId'));
+                $issue = null;
+                if ($publication->getData('issueId')) {
+                    $issue = Repo::issue()->get($publication->getData('issueId'));
+                    $issue = $issue->getJournalId() == $article->getData('contextId') ? $issue : null;
+                }
+                event(new UsageEvent(Application::ASSOC_TYPE_SUBMISSION_FILE, $request->getContext(), $article, $galley, $submissionFile, $issue));
+            }
+            return true;
+        }
 
-			$contents = preg_replace(
-				$pattern='/([Ss][Rr][Cc]|[Hh][Rr][Ee][Ff]|[Dd][Aa][Tt][Aa])\s*=\s*"([^"]*' . $pattern . ')"/',
-				'\1="' . $fileUrl . '"',
-				$contents
-			);
-			if ($contents === null) error_log('PREG error in ' . __FILE__ . ' line ' . __LINE__ . ': ' . preg_last_error());
-		}
+        return false;
+    }
 
-		// Perform replacement for ojs://... URLs
-		$contents = preg_replace_callback(
-			'/(<[^<>]*")[Oo][Jj][Ss]:\/\/([^"]+)("[^<>]*>)/',
-			array($this, '_handleOjsUrl'),
-			$contents
-		);
-		if ($contents === null) error_log('PREG error in ' . __FILE__ . ' line ' . __LINE__ . ': ' . preg_last_error());
+    /**
+     * Return a string containing the contents of the XML file.
+     * This function performs any necessary filtering, like image URL replacement.
+     */
+    public function _getXMLContents(Request $request, Galley $galley): string
+    {
+        $journal = $request->getJournal();
+        $submissionFile = $galley->getFile();
+        $fileService = Services::get('file');
+        $file = $fileService->get($submissionFile->getData('fileId'));
+        $contents = $fileService->fs->read($file->path);
 
-		// Perform variable replacement for journal, issue, site info
-		$issueDao = DAORegistry::getDAO('IssueDAO');
-		$issue = $issueDao->getBySubmissionId($galley->getData('submissionId'));
+        // Replace media file references
+        $embeddableFiles = Repo::submissionFile()
+            ->getCollector()
+            ->filterByAssoc(
+                Application::ASSOC_TYPE_SUBMISSION_FILE,
+                [$submissionFile->getId()]
+            )
+            ->filterByFileStages([SubmissionFile::SUBMISSION_FILE_DEPENDENT])
+            ->includeDependentFiles()
+            ->getMany();
 
-		$journal = $request->getJournal();
-		$site = $request->getSite();
+        $referredArticle = $referredPublication = null;
+        foreach ($embeddableFiles as $embeddableFile) {
+            // Ensure that the $referredArticle object refers to the article we want
+            if (!$referredArticle || !$referredPublication || $referredPublication->getData('submissionId') != $referredArticle->getId() || $referredPublication->getId() != $galley->getData('publicationId')) {
+                $referredPublication = Repo::publication()->get($galley->getData('publicationId'));
+                $referredArticle = Repo::submission()->get($referredPublication->getData('submissionId'));
+            }
 
-		$paramArray = array(
-			'issueTitle' => $issue?$issue->getIssueIdentification():__('editor.article.scheduleForPublication.toBeAssigned'),
-			'journalTitle' => $journal->getLocalizedName(),
-			'siteTitle' => $site->getLocalizedTitle(),
-			'currentUrl' => $request->getRequestUrl(),
-		);
+            $params = [];
 
-		foreach ($paramArray as $key => $value) {
-			$contents = str_replace('{$' . $key . '}', $value, $contents);
-		}
+            if ($embeddableFile->getData('mimetype') == 'text/plain' || $embeddableFile->getData('mimetype') == 'text/css') {
+                $params['inline'] = 'true';
+            }
 
-		return $contents;
-	}
+            $fileUrl = $request->url(null, 'article', 'download', [$referredPublication->getData('urlPath') ?? $referredArticle->getId(), 'version', $galley->getData('publicationId'), $galley->getBestGalleyId(), $embeddableFile->getId(), $embeddableFile->getLocalizedData('name')], $params);
+            $pattern = preg_quote(rawurlencode($embeddableFile->getLocalizedData('name')), '/');
+            $contents = preg_replace(
+                $pattern = '/([Ss][Rr][Cc]|[Hh][Rr][Ee][Ff]|[Dd][Aa][Tt][Aa])\s*=\s*"([^"]*' . $pattern . ')"/',
+                '\1="' . $fileUrl . '"',
+                $contents
+            );
+            if ($contents === null) {
+                error_log('PREG error in ' . __FILE__ . ' line ' . __LINE__ . ': ' . preg_last_error());
+            }
+        }
 
-	function _handleOjsUrl($matchArray) {
-		$request = Application::get()->getRequest();
-		$url = $matchArray[2];
-		$anchor = null;
-		if (($i = strpos($url, '#')) !== false) {
-			$anchor = substr($url, $i+1);
-			$url = substr($url, 0, $i);
-		}
-		$urlParts = explode('/', $url);
-		if (isset($urlParts[0])) switch(strtolower_codesafe($urlParts[0])) {
-			case 'journal':
-				$url = $request->url(isset($urlParts[1]) ? $urlParts[1] : $request->getRequestedJournalPath(), null, null, null, null, $anchor);
-				break;
-			case 'article':
-				if (isset($urlParts[1])) {$url = $request->url(null, 'article', 'view', $urlParts[1], null, $anchor);}
-				break;
-			case 'issue':
-				if (isset($urlParts[1])) {$url = $request->url(null, 'issue', 'view', $urlParts[1], null, $anchor);} else {
-					$url = $request->url(null, 'issue', 'current', null, null, $anchor);}
-				break;
-			case 'sitepublic':
-				array_shift($urlParts);
-				import ('classes.file.PublicFileManager');
-				$publicFileManager = new PublicFileManager();
-				$url = $request->getBaseUrl() . '/' . $publicFileManager->getSiteFilesPath() . '/' . implode('/', $urlParts) . ($anchor?'#' . $anchor:'');
-				break;
-			case 'public':
-				array_shift($urlParts);
-				$journal = $request->getJournal();
-				import ('classes.file.PublicFileManager');
-				$publicFileManager = new PublicFileManager();
-				$url = $request->getBaseUrl() . '/' . $publicFileManager->getContextFilesPath($journal->getId()) . '/' . implode('/', $urlParts) . ($anchor?'#' . $anchor:'');
-				break;
-		}
-		return $matchArray[1] . $url . $matchArray[3];
-	}
+        // Perform replacement for ojs://... URLs
+        $contents = preg_replace_callback(
+            '/(<[^<>]*")[Oo][Jj][Ss]:\/\/([^"]+)("[^<>]*>)/',
+            $this->_handleOjsUrl(...),
+            $contents
+        );
+        if ($contents === null) {
+            error_log('PREG error in ' . __FILE__ . ' line ' . __LINE__ . ': ' . preg_last_error());
+        }
+
+        // Perform variable replacement for journal, issue, site info
+        if (!$referredPublication) $referredPublication = Repo::publication()->get($galley->getData('publicationId'));
+        $issue = Repo::issue()->getBySubmissionId($referredPublication->getData('submissionId'));
+
+        $journal = $request->getJournal();
+        $site = $request->getSite();
+
+        $paramArray = [
+            'issueTitle' => $issue ? $issue->getIssueIdentification() : __('editor.article.scheduleForPublication.toBeAssigned'),
+            'journalTitle' => $journal->getLocalizedName(),
+            'siteTitle' => $site->getLocalizedTitle(),
+            'currentUrl' => $request->getRequestUrl(),
+        ];
+
+        foreach ($paramArray as $key => $value) {
+            $contents = str_replace('{$' . $key . '}', $value, $contents);
+        }
+
+        return $contents;
+    }
+
+    /**
+     * Handles and processes an OJS URL, modifying it based on specific URL patterns.
+     */
+    public function _handleOjsUrl(array $matchArray): string
+    {
+        $request = Application::get()->getRequest();
+        $url = $matchArray[2];
+        $anchor = null;
+        if (($i = strpos($url, '#')) !== false) {
+            $anchor = substr($url, $i + 1);
+            $url = substr($url, 0, $i);
+        }
+        $urlParts = explode('/', $url);
+        if (isset($urlParts[0])) {
+            switch (strtolower($urlParts[0])) {
+                case 'journal':
+                    $url = $request->url(
+                        $urlParts[1] ?? $request->getRouter()->getRequestedContextPath($request),
+                        null,
+                        null,
+                        null,
+                        null,
+                        $anchor
+                    );
+                    break;
+                case 'article':
+                    if (isset($urlParts[1])) {
+                        $url = $request->url(
+                            null,
+                            'article',
+                            'view',
+                            [$urlParts[1]],
+                            null,
+                            $anchor
+                        );
+                    }
+                    break;
+                case 'issue':
+                    if (isset($urlParts[1])) {
+                        $url = $request->url(
+                            null,
+                            'issue',
+                            'view',
+                            [$urlParts[1]],
+                            null,
+                            $anchor
+                        );
+                    } else {
+                        $url = $request->url(
+                            null,
+                            'issue',
+                            'current',
+                            null,
+                            null,
+                            $anchor
+                        );
+                    }
+                    break;
+                case 'sitepublic':
+                    array_shift($urlParts);
+                    $publicFileManager = new PublicFileManager();
+                    $url = $request->getBaseUrl() . '/' . $publicFileManager->getSiteFilesPath() . '/' . implode('/', $urlParts) . ($anchor ? '#' . $anchor : '');
+                    break;
+                case 'public':
+                    array_shift($urlParts);
+                    $journal = $request->getJournal();
+                    $publicFileManager = new PublicFileManager();
+                    $url = $request->getBaseUrl() . '/' . $publicFileManager->getContextFilesPath($journal->getId()) . '/' . implode('/', $urlParts) . ($anchor ? '#' . $anchor : '');
+                    break;
+            }
+        }
+        return $matchArray[1] . $url . $matchArray[3];
+    }
 }
-
-?>
