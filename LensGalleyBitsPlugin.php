@@ -101,7 +101,7 @@ class LensGalleyBitsPlugin extends GenericPlugin
                 'isLatestPublication' => $submission->getData('currentPublicationId') === $galley->getData('publicationId'),
                 'galleyPublication' => $galleyPublication,
                 'galley' => $galley,
-                'jQueryUrl' => $this->_getJQueryUrl($request),
+                'jQueryUrl' => $this->getJQueryUrl($request),
             ]);
             $templateMgr->display($this->getTemplateResource('articleGalley.tpl'));
             return true;
@@ -128,7 +128,7 @@ class LensGalleyBitsPlugin extends GenericPlugin
                 'galleyFile' => $galley->getFile(),
                 'issue' => $issue,
                 'galley' => $galley,
-                'jQueryUrl' => $this->_getJQueryUrl($request),
+                'jQueryUrl' => $this->getJQueryUrl($request),
             ]);
             $templateMgr->display($this->getTemplateResource('issueGalley.tpl'));
             return true;
@@ -140,7 +140,7 @@ class LensGalleyBitsPlugin extends GenericPlugin
     /**
      * Get the URL for JQuery JS.
      */
-    public function _getJQueryUrl(Request $request): string
+    private function getJQueryUrl(Request $request): string
     {
         $min = Config::getVar('general', 'enable_minified') ? '.min' : '';
         return $request->getBaseUrl() . '/js/build/jquery/jquery' . $min . '.js';
@@ -149,7 +149,7 @@ class LensGalleyBitsPlugin extends GenericPlugin
     /**
      * returns the base path for Lens JS included in this plugin.
      */
-    public function getLensPath(Request $request): string
+    private function getLensPath(Request $request): string
     {
         return $request->getBaseUrl() . '/' . $this->getPluginPath() . '/lib/lens';
     }
@@ -157,7 +157,7 @@ class LensGalleyBitsPlugin extends GenericPlugin
     /**
      * Present rewritten XML.
      */
-    public function articleDownloadCallback(string $hookName, array $args): bool
+    private function articleDownloadCallback(string $hookName, array $args): bool
     {
         $article = &$args[0];
         $galley = &$args[1];
@@ -171,7 +171,7 @@ class LensGalleyBitsPlugin extends GenericPlugin
         $submissionFile = $galley->getFile();
         if ($galley->getData('submissionFileId') == $fileId && in_array($submissionFile->getData('mimetype'), ['application/xml', 'text/xml']) && $galley->getData('submissionFileId') == $submissionFile->getId()) {
             if (!Hook::run('LensGalleyPlugin::articleDownload', [[$article, &$galley, &$fileId]])) {
-                $xmlContents = $this->_getXMLContents($request, $galley);
+                $xmlContents = $this->getXMLContents($request, $galley);
                 header('Content-Type: application/xml');
                 header('Content-Length: ' . strlen($xmlContents));
                 header('Content-Disposition: inline');
@@ -200,13 +200,16 @@ class LensGalleyBitsPlugin extends GenericPlugin
      * Return a string containing the contents of the XML file.
      * This function performs any necessary filtering, like image URL replacement.
      */
-    public function _getXMLContents(Request $request, Galley $galley): string
+    private function getXMLContents(Request $request, Galley $galley): string
     {
         $journal = $request->getJournal();
-        $submissionFile = $galley->getFile();
+        $submissionFile = Repo::submissionFile()->get($galley->getData('submissionFileId'));
         $fileService = Services::get('file');
         $file = $fileService->get($submissionFile->getData('fileId'));
         $contents = $fileService->fs->read($file->path);
+        if (!$contents) {
+            return '';
+        }
 
         // Replace media file references
         $embeddableFiles = Repo::submissionFile()
@@ -236,7 +239,7 @@ class LensGalleyBitsPlugin extends GenericPlugin
             $fileUrl = $request->url(null, 'article', 'download', [$referredPublication->getData('urlPath') ?? $referredArticle->getId(), 'version', $galley->getData('publicationId'), $galley->getBestGalleyId(), $embeddableFile->getId(), $embeddableFile->getLocalizedData('name')], $params);
             $pattern = preg_quote(rawurlencode($embeddableFile->getLocalizedData('name')), '/');
             $contents = preg_replace(
-                $pattern = '/([Ss][Rr][Cc]|[Hh][Rr][Ee][Ff]|[Dd][Aa][Tt][Aa])\s*=\s*"([^"]*' . $pattern . ')"/',
+                '/([Ss][Rr][Cc]|[Hh][Rr][Ee][Ff]|[Dd][Aa][Tt][Aa])\s*=\s*"([^"]*' . $pattern . ')"/',
                 '\1="' . $fileUrl . '"',
                 $contents
             );
@@ -248,7 +251,7 @@ class LensGalleyBitsPlugin extends GenericPlugin
         // Perform replacement for ojs://... URLs
         $contents = preg_replace_callback(
             '/(<[^<>]*")[Oo][Jj][Ss]:\/\/([^"]+)("[^<>]*>)/',
-            $this->_handleOjsUrl(...),
+            $this->handleOjsUrl(...),
             $contents
         );
         if ($contents === null) {
@@ -279,7 +282,7 @@ class LensGalleyBitsPlugin extends GenericPlugin
     /**
      * Handles and processes an OJS URL, modifying it based on specific URL patterns.
      */
-    public function _handleOjsUrl(array $matchArray): string
+    private function handleOjsUrl(array $matchArray): string
     {
         $request = Application::get()->getRequest();
         $url = $matchArray[2];
