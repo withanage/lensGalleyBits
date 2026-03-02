@@ -1,13 +1,13 @@
 {**
  * plugins/generic/lensGalleyBits/articleGalley.tpl
  *
- * Copyright (c) 2014-2020 Simon Fraser University
- * Copyright (c) 2003-2020 John Willinsky
+ * Copyright (c) 2014-2026 Simon Fraser University
+ * Copyright (c) 2003-2026 John Willinsky
  * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
  * Embedded viewing of a JATS XML galley.
  *}
-{include file="frontend/components/header.tpl" pageTitleTranslated=$article->getLocalizedTitle()|escape}
+{include file="frontend/components/header.tpl" pageTitleTranslated=$galleyPublication->getLocalizedTitle()|escape}
 
 <div class="page">
 	{capture assign="xmlUrl"}{strip}
