@@ -861,123 +861,107 @@
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">human-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.csv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.csv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.csv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.csv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.csv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.csv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.csv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.csv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.csv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.csv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.csv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.csv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-greenhouse-gas-emissions/2017-ghg-proxies/ghg_proxy_2017/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-greenhouse-gas-emissions/2017-ghg-proxies/ghg_proxy_2017/at_download/file">https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-greenhouse-gas-emissions/2017-ghg-proxies/ghg_proxy_2017/at_download/file</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/pam-data-2019/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/pam-data-2019/at_download/file">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/pam-data-2019/at_download/file</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-4/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-4/at_download/file">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-4/at_download/file</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-5/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-5/at_download/file">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-5/at_download/file</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/greenhouse-gas-policies-and-measures/at_download/file
-                            </td>
-                        </tr>
-                        <tr>
-                            <th style="padding-left: 24px; text-align: left;">human-readable data</th>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.table
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.table
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.table
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.table
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.csv
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_csv/at_download/file
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2020-ghg-projections-reported-and/ghg_projections_2020_csv/at_download/file
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2021-preliminary-ghg-projections-reported/ghg_projections_2021_preliminary_csv/at_download/file
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2022-ghg-projections-reported-and/ghg_projections_2022_csv/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/greenhouse-gas-policies-and-measures/at_download/file">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/greenhouse-gas-policies-and-measures/at_download/file</ext-link>
                             </td>
                         </tr>
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">human-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.tsv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.table">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.table</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.tsv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.table">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.table</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.tsv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.table">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.table</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.tsv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.table">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.table</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.table
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.csv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.csv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_xlsx/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_csv/at_download/file</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2020-ghg-projections-reported-and/ghg_projections_2020_xlsx-including-pivot-chart/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2020-ghg-projections-reported-and/ghg_projections_2020_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2020-ghg-projections-reported-and/ghg_projections_2020_csv/at_download/file</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2021-preliminary-ghg-projections-reported/ghg_projections_2021_preliminary_xlsx-including-pivot-chart/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2021-preliminary-ghg-projections-reported/ghg_projections_2021_preliminary_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2021-preliminary-ghg-projections-reported/ghg_projections_2021_preliminary_csv/at_download/file</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2022-ghg-projections-reported-and/ghg_projections_2022_xlsx-including-pivot-chart/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2022-ghg-projections-reported-and/ghg_projections_2022_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2022-ghg-projections-reported-and/ghg_projections_2022_csv/at_download/file</ext-link>
                             </td>
                         </tr>
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">human-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.csv
-                            </td>
-                            <td/>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for/ghg_projections_v2_csv/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.tsv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.tsv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_csv/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.tsv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.tsv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.tsv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.tsv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.tsv</ext-link>
                             </td>
-                            <td/>
-                            <td/>
-                            <td/>
-                            <td/>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.tsv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.tsv</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.table">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.table</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_xlsx/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_xlsx/at_download/file</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2020-ghg-projections-reported-and/ghg_projections_2020_xlsx-including-pivot-chart/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2020-ghg-projections-reported-and/ghg_projections_2020_xlsx-including-pivot-chart/at_download/file</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2021-preliminary-ghg-projections-reported/ghg_projections_2021_preliminary_xlsx-including-pivot-chart/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2021-preliminary-ghg-projections-reported/ghg_projections_2021_preliminary_xlsx-including-pivot-chart/at_download/file</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2022-ghg-projections-reported-and/ghg_projections_2022_xlsx-including-pivot-chart/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2022-ghg-projections-reported-and/ghg_projections_2022_xlsx-including-pivot-chart/at_download/file</ext-link>
+                            </td>
                         </tr>
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">human-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.table
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.csv">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.csv</ext-link>
                             </td>
                             <td/>
-                            <td/>
-                            <td/>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_csv/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for/ghg_projections_v2_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for/ghg_projections_v2_csv/at_download/file</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_csv/at_download/file</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.tsv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.tsv</ext-link>
                             </td>
                             <td/>
                             <td/>
@@ -987,7 +971,23 @@
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">human-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.tsv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.table">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.table</ext-link>
+                            </td>
+                            <td/>
+                            <td/>
+                            <td/>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_csv/at_download/file</ext-link>
+                            </td>
+                            <td/>
+                            <td/>
+                            <td/>
+                            <td/>
+                        </tr>
+                        <tr>
+                            <th style="padding-left: 24px; text-align: left;">human-readable data</th>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.tsv">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.tsv</ext-link>
                             </td>
                             <td/>
                             <td/>
@@ -1001,22 +1001,22 @@
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.exhibit
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.exhibit">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.exhibit</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.exhibit
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.exhibit">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.exhibit</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.exhibit
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.exhibit">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.exhibit</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.exhibit
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.exhibit">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.exhibit</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.exhibit
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.exhibit">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.exhibit</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_mdb/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_mdb/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_mdb/at_download/file</ext-link>
                             </td>
                             <td/>
                             <td/>
@@ -1025,41 +1025,19 @@
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.json
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.json">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.json</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.json
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.json">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.json</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.json
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.json">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.json</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.json
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.json">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.json</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.json
-                            </td>
-                            <td/>
-                            <td/>
-                            <td/>
-                            <td/>
-                        </tr>
-                        <tr>
-                            <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.schema.xml
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.schema.xml
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.schema.xml
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.schema.xml
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.schema.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.json">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.json</ext-link>
                             </td>
                             <td/>
                             <td/>
@@ -1069,39 +1047,19 @@
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.schema.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.schema.xml</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.schema.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.schema.xml</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.schema.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.schema.xml</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.schema.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.schema.xml</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.xml
-                            </td>
-                            <td/>
-                            <td/>
-                            <td/>
-                            <td/>
-                        </tr>
-                        <tr>
-                            <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.exhibit
-                            </td>
-                            <td/>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for/ghg_projections_v2_mdb/at_download/file
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_mdb/at_download/file
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_mdb/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.schema.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.schema.xml</ext-link>
                             </td>
                             <td/>
                             <td/>
@@ -1111,12 +1069,20 @@
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.json
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.xml</ext-link>
                             </td>
-                            <td/>
-                            <td/>
-                            <td/>
-                            <td/>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.xml</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.xml</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.xml</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.xml</ext-link>
+                            </td>
                             <td/>
                             <td/>
                             <td/>
@@ -1125,7 +1091,27 @@
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.schema.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.exhibit">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.exhibit</ext-link>
+                            </td>
+                            <td/>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for/ghg_projections_v2_mdb/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for/ghg_projections_v2_mdb/at_download/file</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_mdb/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_mdb/at_download/file</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_mdb/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_mdb/at_download/file</ext-link>
+                            </td>
+                            <td/>
+                            <td/>
+                            <td/>
+                            <td/>
+                        </tr>
+                        <tr>
+                            <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.json">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.json</ext-link>
                             </td>
                             <td/>
                             <td/>
@@ -1139,7 +1125,21 @@
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.schema.xml">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.schema.xml</ext-link>
+                            </td>
+                            <td/>
+                            <td/>
+                            <td/>
+                            <td/>
+                            <td/>
+                            <td/>
+                            <td/>
+                            <td/>
+                        </tr>
+                        <tr>
+                            <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.xml">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.xml</ext-link>
                             </td>
                             <td/>
                             <td/>
@@ -1207,43 +1207,47 @@
                         <tr>
                             <th style="padding-left: 12px; text-align: left;">has visualization</th>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2019.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2019.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2019.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2020.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2020.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2020.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2021.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2021.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2021.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2022.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2022.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2022.PNG</ext-link>
                             </td>
                         </tr>
                         <tr>
                             <th style="padding-left: 12px; text-align: left;">has visualization</th>
-                            <td>https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1</td>
-                            <td>https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6</td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1">https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6">https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6</ext-link>
+                            </td>
                             <td/>
                             <td/>
                             <td/>
                             <td/>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/data-viewers/eea-greenhouse-gas-projections-data-viewer
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/data-viewers/eea-greenhouse-gas-projections-data-viewer">https://www.eea.europa.eu/data-and-maps/data/data-viewers/eea-greenhouse-gas-projections-data-viewer</ext-link>
                             </td>
                             <td/>
                             <td/>
@@ -1497,19 +1501,19 @@
                         <tr>
                             <th style="padding-left: 12px; text-align: left;">has visualization</th>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG</ext-link>
                             </td>
                             <td/>
                             <td/>
@@ -1518,8 +1522,12 @@
                         </tr>
                         <tr>
                             <th style="padding-left: 12px; text-align: left;">has visualization</th>
-                            <td>https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1</td>
-                            <td>https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6</td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1">https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6">https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6</ext-link>
+                            </td>
                             <td/>
                             <td/>
                             <td/>
@@ -1813,19 +1821,19 @@
                         <tr>
                             <th style="padding-left: 12px; text-align: left;">has visualization</th>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG</ext-link>
                             </td>
                             <td/>
                             <td/>
@@ -1834,8 +1842,12 @@
                         </tr>
                         <tr>
                             <th style="padding-left: 12px; text-align: left;">has visualization</th>
-                            <td>https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1</td>
-                            <td>https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6</td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1">https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6">https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6</ext-link>
+                            </td>
                             <td/>
                             <td/>
                             <td/>
@@ -2200,123 +2212,107 @@
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">human-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.csv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.csv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.csv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.csv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.csv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.csv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.csv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.csv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.csv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.csv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.csv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.csv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-greenhouse-gas-emissions/2017-ghg-proxies/ghg_proxy_2017/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-greenhouse-gas-emissions/2017-ghg-proxies/ghg_proxy_2017/at_download/file">https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-greenhouse-gas-emissions/2017-ghg-proxies/ghg_proxy_2017/at_download/file</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/pam-data-2019/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/pam-data-2019/at_download/file">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/pam-data-2019/at_download/file</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-4/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-4/at_download/file">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-4/at_download/file</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-5/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-5/at_download/file">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-5/at_download/file</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/greenhouse-gas-policies-and-measures/at_download/file
-                            </td>
-                        </tr>
-                        <tr>
-                            <th style="padding-left: 24px; text-align: left;">human-readable data</th>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.table
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.table
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.table
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.table
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.csv
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_csv/at_download/file
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2020-ghg-projections-reported-and/ghg_projections_2020_csv/at_download/file
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2021-preliminary-ghg-projections-reported/ghg_projections_2021_preliminary_csv/at_download/file
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2022-ghg-projections-reported-and/ghg_projections_2022_csv/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/greenhouse-gas-policies-and-measures/at_download/file">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/greenhouse-gas-policies-and-measures/at_download/file</ext-link>
                             </td>
                         </tr>
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">human-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.tsv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.table">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.table</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.tsv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.table">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.table</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.tsv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.table">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.table</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.tsv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.table">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.table</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.table
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.csv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.csv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_xlsx/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_csv/at_download/file</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2020-ghg-projections-reported-and/ghg_projections_2020_xlsx-including-pivot-chart/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2020-ghg-projections-reported-and/ghg_projections_2020_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2020-ghg-projections-reported-and/ghg_projections_2020_csv/at_download/file</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2021-preliminary-ghg-projections-reported/ghg_projections_2021_preliminary_xlsx-including-pivot-chart/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2021-preliminary-ghg-projections-reported/ghg_projections_2021_preliminary_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2021-preliminary-ghg-projections-reported/ghg_projections_2021_preliminary_csv/at_download/file</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2022-ghg-projections-reported-and/ghg_projections_2022_xlsx-including-pivot-chart/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2022-ghg-projections-reported-and/ghg_projections_2022_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2022-ghg-projections-reported-and/ghg_projections_2022_csv/at_download/file</ext-link>
                             </td>
                         </tr>
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">human-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.csv
-                            </td>
-                            <td/>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for/ghg_projections_v2_csv/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.tsv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.tsv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_csv/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.tsv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.tsv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.tsv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.tsv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.tsv</ext-link>
                             </td>
-                            <td/>
-                            <td/>
-                            <td/>
-                            <td/>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.tsv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.tsv</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.table">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.table</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_xlsx/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_xlsx/at_download/file</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2020-ghg-projections-reported-and/ghg_projections_2020_xlsx-including-pivot-chart/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2020-ghg-projections-reported-and/ghg_projections_2020_xlsx-including-pivot-chart/at_download/file</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2021-preliminary-ghg-projections-reported/ghg_projections_2021_preliminary_xlsx-including-pivot-chart/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2021-preliminary-ghg-projections-reported/ghg_projections_2021_preliminary_xlsx-including-pivot-chart/at_download/file</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2022-ghg-projections-reported-and/ghg_projections_2022_xlsx-including-pivot-chart/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2022-ghg-projections-reported-and/ghg_projections_2022_xlsx-including-pivot-chart/at_download/file</ext-link>
+                            </td>
                         </tr>
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">human-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.table
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.csv">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.csv</ext-link>
                             </td>
                             <td/>
-                            <td/>
-                            <td/>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_csv/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for/ghg_projections_v2_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for/ghg_projections_v2_csv/at_download/file</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_csv/at_download/file</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.tsv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.tsv</ext-link>
                             </td>
                             <td/>
                             <td/>
@@ -2326,7 +2322,23 @@
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">human-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.tsv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.table">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.table</ext-link>
+                            </td>
+                            <td/>
+                            <td/>
+                            <td/>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_csv/at_download/file</ext-link>
+                            </td>
+                            <td/>
+                            <td/>
+                            <td/>
+                            <td/>
+                        </tr>
+                        <tr>
+                            <th style="padding-left: 24px; text-align: left;">human-readable data</th>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.tsv">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.tsv</ext-link>
                             </td>
                             <td/>
                             <td/>
@@ -2340,22 +2352,22 @@
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.exhibit
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.exhibit">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.exhibit</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.exhibit
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.exhibit">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.exhibit</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.exhibit
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.exhibit">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.exhibit</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.exhibit
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.exhibit">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.exhibit</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.exhibit
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.exhibit">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.exhibit</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_mdb/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_mdb/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_mdb/at_download/file</ext-link>
                             </td>
                             <td/>
                             <td/>
@@ -2364,41 +2376,19 @@
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.json
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.json">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.json</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.json
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.json">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.json</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.json
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.json">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.json</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.json
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.json">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.json</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.json
-                            </td>
-                            <td/>
-                            <td/>
-                            <td/>
-                            <td/>
-                        </tr>
-                        <tr>
-                            <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.schema.xml
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.schema.xml
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.schema.xml
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.schema.xml
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.schema.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.json">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.json</ext-link>
                             </td>
                             <td/>
                             <td/>
@@ -2408,39 +2398,19 @@
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.schema.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.schema.xml</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.schema.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.schema.xml</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.schema.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.schema.xml</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.schema.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.schema.xml</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.xml
-                            </td>
-                            <td/>
-                            <td/>
-                            <td/>
-                            <td/>
-                        </tr>
-                        <tr>
-                            <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.exhibit
-                            </td>
-                            <td/>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for/ghg_projections_v2_mdb/at_download/file
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_mdb/at_download/file
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_mdb/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.schema.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.schema.xml</ext-link>
                             </td>
                             <td/>
                             <td/>
@@ -2450,12 +2420,20 @@
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.json
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.xml</ext-link>
                             </td>
-                            <td/>
-                            <td/>
-                            <td/>
-                            <td/>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.xml</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.xml</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.xml</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.xml</ext-link>
+                            </td>
                             <td/>
                             <td/>
                             <td/>
@@ -2464,7 +2442,27 @@
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.schema.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.exhibit">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.exhibit</ext-link>
+                            </td>
+                            <td/>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for/ghg_projections_v2_mdb/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for/ghg_projections_v2_mdb/at_download/file</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_mdb/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_mdb/at_download/file</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_mdb/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_mdb/at_download/file</ext-link>
+                            </td>
+                            <td/>
+                            <td/>
+                            <td/>
+                            <td/>
+                        </tr>
+                        <tr>
+                            <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.json">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.json</ext-link>
                             </td>
                             <td/>
                             <td/>
@@ -2478,7 +2476,21 @@
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.schema.xml">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.schema.xml</ext-link>
+                            </td>
+                            <td/>
+                            <td/>
+                            <td/>
+                            <td/>
+                            <td/>
+                            <td/>
+                            <td/>
+                            <td/>
+                        </tr>
+                        <tr>
+                            <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.xml">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.xml</ext-link>
                             </td>
                             <td/>
                             <td/>
@@ -2522,43 +2534,47 @@
                         <tr>
                             <th style="padding-left: 12px; text-align: left;">has visualization</th>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2019.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2019.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2019.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2020.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2020.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2020.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2021.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2021.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2021.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2022.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2022.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2022.PNG</ext-link>
                             </td>
                         </tr>
                         <tr>
                             <th style="padding-left: 12px; text-align: left;">has visualization</th>
-                            <td>https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1</td>
-                            <td>https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6</td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1">https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6">https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6</ext-link>
+                            </td>
                             <td/>
                             <td/>
                             <td/>
                             <td/>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/data-viewers/eea-greenhouse-gas-projections-data-viewer
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/data-viewers/eea-greenhouse-gas-projections-data-viewer">https://www.eea.europa.eu/data-and-maps/data/data-viewers/eea-greenhouse-gas-projections-data-viewer</ext-link>
                             </td>
                             <td/>
                             <td/>
@@ -2836,43 +2852,47 @@
                         <tr>
                             <th style="padding-left: 12px; text-align: left;">has visualization</th>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2019.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2019.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2019.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2020.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2020.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2020.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2021.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2021.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2021.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2022.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2022.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2022.PNG</ext-link>
                             </td>
                         </tr>
                         <tr>
                             <th style="padding-left: 12px; text-align: left;">has visualization</th>
-                            <td>https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1</td>
-                            <td>https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6</td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1">https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6">https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6</ext-link>
+                            </td>
                             <td/>
                             <td/>
                             <td/>
                             <td/>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/data-viewers/eea-greenhouse-gas-projections-data-viewer
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/data-viewers/eea-greenhouse-gas-projections-data-viewer">https://www.eea.europa.eu/data-and-maps/data/data-viewers/eea-greenhouse-gas-projections-data-viewer</ext-link>
                             </td>
                             <td/>
                             <td/>
@@ -3186,43 +3206,47 @@
                         <tr>
                             <th style="padding-left: 12px; text-align: left;">has visualization</th>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2019.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2019.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2019.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2020.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2020.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2020.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2021.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2021.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2021.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2022.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2022.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2022.PNG</ext-link>
                             </td>
                         </tr>
                         <tr>
                             <th style="padding-left: 12px; text-align: left;">has visualization</th>
-                            <td>https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1</td>
-                            <td>https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6</td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1">https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6">https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6</ext-link>
+                            </td>
                             <td/>
                             <td/>
                             <td/>
                             <td/>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/data-viewers/eea-greenhouse-gas-projections-data-viewer
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/data-viewers/eea-greenhouse-gas-projections-data-viewer">https://www.eea.europa.eu/data-and-maps/data/data-viewers/eea-greenhouse-gas-projections-data-viewer</ext-link>
                             </td>
                             <td/>
                             <td/>
@@ -3502,22 +3526,22 @@
                         <tr>
                             <th style="padding-left: 12px; text-align: left;">has visualization</th>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2015.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2015.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2016.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2016.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2017.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2017.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2018.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2018.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2019.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2019.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2019.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2020.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2020.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2020.PNG</ext-link>
                             </td>
                         </tr>
                         <tr>
@@ -3751,22 +3775,22 @@
                         <tr>
                             <th style="padding-left: 12px; text-align: left;">has visualization</th>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2015.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2015.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2016.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2016.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2017.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2017.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2018.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2018.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2019.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2019.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2019.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2020.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2020.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2020.PNG</ext-link>
                             </td>
                         </tr>
                         <tr>
@@ -4000,22 +4024,22 @@
                         <tr>
                             <th style="padding-left: 12px; text-align: left;">has visualization</th>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2015.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2015.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2016.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2016.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2017.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2017.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2018.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2018.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2019.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2019.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2019.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2020.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2020.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2020.PNG</ext-link>
                             </td>
                         </tr>
                     </tbody>
@@ -4182,88 +4206,74 @@
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">human-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-1/eea-proxies-on-final/proxies_fec_eea_csv/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-1/eea-proxies-on-final/proxies_fec_eea_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-1/eea-proxies-on-final/proxies_fec_eea_csv/at_download/file</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-5/eea-2021-proxies-on-primary/2021-proxies-pec2020-2030-fec2020/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-5/eea-2021-proxies-on-primary/2021-proxies-pec2020-2030-fec2020/at_download/file">https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-5/eea-2021-proxies-on-primary/2021-proxies-pec2020-2030-fec2020/at_download/file</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv</ext-link>
                             </td>
                         </tr>
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">human-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-1/eea-proxies-on-primary/proxies_pec_eea_csv/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-1/eea-proxies-on-primary/proxies_pec_eea_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-1/eea-proxies-on-primary/proxies_pec_eea_csv/at_download/file</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-5/eea-proxies-on-final-1/proxies_fec_eea_csv/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-5/eea-proxies-on-final-1/proxies_fec_eea_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-5/eea-proxies-on-final-1/proxies_fec_eea_csv/at_download/file</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table</ext-link>
                             </td>
                         </tr>
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">human-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv</ext-link>
                             </td>
-                        </tr>
-                        <tr>
-                            <th style="padding-left: 24px; text-align: left;">human-readable data</th>
-                            <td/>
-                            <td/>
-                            <td/>
-                            <td/>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table
-                            </td>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table
-                            </td>
-                            <td/>
                         </tr>
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">human-readable data</th>
@@ -4272,120 +4282,122 @@
                             <td/>
                             <td/>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table</ext-link>
+                            </td>
+                            <td/>
+                        </tr>
+                        <tr>
+                            <th style="padding-left: 24px; text-align: left;">human-readable data</th>
+                            <td/>
+                            <td/>
+                            <td/>
+                            <td/>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv</ext-link>
+                            </td>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv</ext-link>
                             </td>
                             <td/>
                         </tr>
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-1/eea-proxies-on-final/proxies_fec_eea_mdb/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-1/eea-proxies-on-final/proxies_fec_eea_mdb/at_download/file">https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-1/eea-proxies-on-final/proxies_fec_eea_mdb/at_download/file</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit</ext-link>
                             </td>
                         </tr>
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-1/eea-proxies-on-primary/proxies_pec_eea_mdb/at_download/file
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-1/eea-proxies-on-primary/proxies_pec_eea_mdb/at_download/file">https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-1/eea-proxies-on-primary/proxies_pec_eea_mdb/at_download/file</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json</ext-link>
                             </td>
                         </tr>
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml</ext-link>
                             </td>
                         </tr>
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml</ext-link>
                             </td>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml</ext-link>
                             </td>
-                        </tr>
-                        <tr>
-                            <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
-                            <td/>
-                            <td/>
-                            <td/>
-                            <td/>
-                            <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml
-                            </td>
-                            <td/>
-                            <td/>
                         </tr>
                         <tr>
                             <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
@@ -4394,7 +4406,19 @@
                             <td/>
                             <td/>
                             <td>
-                                https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml</ext-link>
+                            </td>
+                            <td/>
+                            <td/>
+                        </tr>
+                        <tr>
+                            <th style="padding-left: 24px; text-align: left;">machine-readable data</th>
+                            <td/>
+                            <td/>
+                            <td/>
+                            <td/>
+                            <td>
+                                <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml</ext-link>
                             </td>
                             <td/>
                             <td/>
@@ -4486,25 +4510,25 @@
                         <tr>
                             <th style="padding-left: 12px; text-align: left;">has visualization</th>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2014.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2014.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2014.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2015.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2015.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2016.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2016.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2017.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2017.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2018.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2018.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2019.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2019.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2019.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2020.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2020.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2020.PNG</ext-link>
                             </td>
                         </tr>
                         <tr>
@@ -4689,25 +4713,25 @@
                         <tr>
                             <th style="padding-left: 12px; text-align: left;">has visualization</th>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2014.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2014.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2014.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2015.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2015.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2016.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2016.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2017.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2017.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2018.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2018.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2019.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2019.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2019.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2020.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2020.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2020.PNG</ext-link>
                             </td>
                         </tr>
                         <tr>
@@ -4763,25 +4787,25 @@
                         <tr>
                             <th style="padding-left: 12px; text-align: left;">has visualization</th>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2014.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2014.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2014.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2015.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2015.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2016.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2016.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2017.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2017.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2018.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2018.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2019.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2019.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2019.PNG</ext-link>
                             </td>
                             <td>
-                                https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2020.PNG
+                                <ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2020.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2020.PNG</ext-link>
                             </td>
                         </tr>
                     </tbody>
