@@ -166,8 +166,9 @@ class LensGalleyBitsPlugin extends GenericPlugin {
 			if (!HookRegistry::call('LensGalleyPlugin::articleDownload', array($article,  &$galley, &$fileId))) {
 				$xmlContents = $this->_getXMLContents($request, $galley);
 				header('Content-Type: application/xml');
+				header('X-Content-Type-Options: nosniff');
+				header('Content-Disposition: attachment; filename="galley-' . (int) $galley->getId() . '.xml"');
 				header('Content-Length: ' . strlen($xmlContents));
-				header('Content-Disposition: inline');
 				header('Cache-Control: private');
 				header('Pragma: public');
 				echo $xmlContents;
@@ -249,7 +250,37 @@ class LensGalleyBitsPlugin extends GenericPlugin {
 			$contents = str_replace('{$' . $key . '}', $value, $contents);
 		}
 
-		return $contents;
+		return $this->_sanitizeGalleyXml($contents);
+	}
+
+	function _sanitizeGalleyXml($contents) {
+		if (trim((string) $contents) === '') {
+			return '';
+		}
+
+		$doc = new DOMDocument();
+		$restore = function_exists('libxml_disable_entity_loader') ? libxml_disable_entity_loader(true) : null;
+		$errors = libxml_use_internal_errors(true);
+		$loaded = $doc->loadXML($contents, LIBXML_NONET);
+		libxml_clear_errors();
+		libxml_use_internal_errors($errors);
+		if ($restore !== null) {
+			libxml_disable_entity_loader($restore);
+		}
+
+		if (!$loaded) {
+			return '';
+		}
+
+		$xpath = new DOMXPath($doc);
+		foreach (iterator_to_array($xpath->query('//*[translate(local-name(), "SCRIPT", "script") = "script"] | //processing-instruction()')) as $node) {
+			$node->parentNode->removeChild($node);
+		}
+		foreach (iterator_to_array($xpath->query('//@*[starts-with(translate(name(), "ON", "on"), "on")]')) as $attr) {
+			$attr->ownerElement->removeAttribute($attr->nodeName);
+		}
+
+		return $doc->saveXML();
 	}
 
 	function _handleOjsUrl($matchArray) {
