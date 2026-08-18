@@ -54,6 +54,22 @@ class LensGalleyBitsPlugin extends GenericPlugin {
 		return __('plugins.generic.lensGalleyBits.description');
 	}
 
+	function hasHtmlGalley($galley) {
+		if (!$galley || !$galley->getData('publicationId')) return false;
+
+		$publication = Services::get('publication')->get($galley->getData('publicationId'));
+		if (!$publication) return false;
+
+		foreach ((array) $publication->getData('galleys') as $sibling) {
+			if ($sibling->getId() == $galley->getId()) continue;
+			if ($sibling->getRemoteURL()) continue;
+			$file = $sibling->getFile();
+			if ($file && $file->getData('mimetype') === 'text/html') return true;
+		}
+
+		return false;
+	}
+
 	/**
 	 * Callback that renders the article galley.
 	 * @param $hookName string
@@ -67,7 +83,7 @@ class LensGalleyBitsPlugin extends GenericPlugin {
 		$submission =& $args[3];
 
 		$templateMgr = TemplateManager::getManager($request);
-		if ($galley && in_array($galley->getFileType(), array('application/xml', 'text/xml'))) {
+		if ($galley && in_array($galley->getFileType(), array('application/xml', 'text/xml')) && !$this->hasHtmlGalley($galley)) {
 			$galleyPublication = null;
 			foreach ($submission->getData('publications') as $publication) {
 				if ($publication->getId() === $galley->getData('publicationId')) {
@@ -162,7 +178,7 @@ class LensGalleyBitsPlugin extends GenericPlugin {
 		$fileId =& $args[2];
 		$request = Application::get()->getRequest();
 
-		if ($galley && in_array($galley->getFileType(), array('application/xml', 'text/xml')) && $galley->getFileId() == $fileId) {
+		if ($galley && in_array($galley->getFileType(), array('application/xml', 'text/xml')) && $galley->getFileId() == $fileId && !$this->hasHtmlGalley($galley)) {
 			if (!HookRegistry::call('LensGalleyPlugin::articleDownload', array($article,  &$galley, &$fileId))) {
 				$xmlContents = $this->_getXMLContents($request, $galley);
 				header('Content-Type: application/xml');
@@ -254,8 +270,9 @@ class LensGalleyBitsPlugin extends GenericPlugin {
 	}
 
 	function _sanitizeGalleyXml($contents) {
-		if (trim((string) $contents) === '') {
-			return '';
+		$contents = (string) $contents;
+		if (trim($contents) === '') {
+			return $contents;
 		}
 
 		$doc = new DOMDocument();
@@ -269,7 +286,7 @@ class LensGalleyBitsPlugin extends GenericPlugin {
 		}
 
 		if (!$loaded) {
-			return '';
+			return $contents;
 		}
 
 		$xpath = new DOMXPath($doc);
